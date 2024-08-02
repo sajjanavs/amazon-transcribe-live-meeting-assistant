@@ -20,16 +20,14 @@ Parameters:
     Type: String
     Description: Message used for the extension to notify speakers this meeting is
       being transcribed.
-    Default: >
-      This meeting is being transcribed with Amazon Live Meeting Assistant - see https://amazon.com/live-meeting-assistant.
+    Default: ""
       
 
   StopRecordingMessage:
     Type: String
     Description: Message used for the extension to notify speakers this meeting has
       stopped being transcribed.
-    Default: >
-      Amazon Live Meeting Assistant transcription stopped.
+    Default: ""
 
   WebSocketEndpoint:
     Type: String
